@@ -16,7 +16,7 @@ package com.portfolio.reports;
 		private static ExtentReports extent;
 	    private static String reportFileName = "TestAutomaton-Report"+".html";
 	    private static String fileSeperator = System.getProperty("file.separator");
-	    private static String reportFilepath = System.getProperty("user.dir") +fileSeperator+ "TestReport";
+	    private static String reportFilepath = System.getProperty("user.dir")+fileSeperator+ "TestRetrieved";
 	    private static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
 	    
 	    public static ExtentReports getInstance() {
@@ -25,7 +25,7 @@ package com.portfolio.reports;
 	        return extent;
 	    }  
 	    //Create an extent report instance
-	    public static ExtentReports createInstance() {
+	   public static ExtentReports createInstance() {
 	    	File f = new File("./target/screenshots/");
 	        try {
 				FileUtils.cleanDirectory(f);
@@ -47,8 +47,8 @@ package com.portfolio.reports;
 	        extent = new ExtentReports();
 	        extent.attachReporter(htmlReporter);
 	        //Set environment details
-	        extent.setSystemInfo("OS", "Windows");
-	        extent.setSystemInfo("Tool", "RestAssured");
+	        extent.setSystemInfo("OS", "Mac");
+	        extent.setSystemInfo("Tool", "Selenium");
 	        extent.setSystemInfo("Developer", "");  
 	        return extent;
 	    }

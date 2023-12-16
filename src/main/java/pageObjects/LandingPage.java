@@ -45,7 +45,7 @@ public class LandingPage extends PortfolioActions{
 		waitForElementToAppear(introductionText2);
 		String text =readText(introductionText2, "Get: Hi my name is Vlade Text");
 		System.out.println(text);
-		//Assert.assertEquals(text, expected);
+		Assert.assertEquals(text, expected);
 		return text;
 		
 	}

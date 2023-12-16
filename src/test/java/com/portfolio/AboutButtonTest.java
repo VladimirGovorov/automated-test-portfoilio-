@@ -35,7 +35,7 @@ public class AboutButtonTest extends DriverFactory {
 		Thread.sleep(3000);
 		landingPage.clickOnAbout();
 		Thread.sleep(3000);
-		landingPage.getWhoAmIText("Who am I?");
+		landingPage.getWhoAmIText("Who am I?"); 
 
 		
 		

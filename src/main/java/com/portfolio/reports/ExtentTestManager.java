@@ -19,6 +19,8 @@ public class ExtentTestManager {
 
     public static synchronized void endTest() {
         extent.flush();
+   
+        
     }
 
     public static synchronized ExtentTest startTest(String testName) {

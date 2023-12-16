@@ -4,13 +4,17 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.portfolio.driverFactory.DriverFactory;
 
 import pageObjects.LandingPage;
-
+@Listeners(com.portfolio.customListeners.Log.class)
 public class VerifyTitlePageTest extends DriverFactory {
+	
+
+
 	
 	public LandingPage landingPage;
 	

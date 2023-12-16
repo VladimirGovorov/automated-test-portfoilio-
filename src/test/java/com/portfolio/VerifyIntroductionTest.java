@@ -26,7 +26,7 @@ public class VerifyIntroductionTest extends DriverFactory {
 	public void getIntroText()
 	{
 		landingPage = new LandingPage(getDriver());
-		landingPage.verifyIntroText("verify");
+		landingPage.verifyIntroText("Hi there! 👋🏼 I'm Vlad"); 
 		
 	}
 	

@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-04T14:46:38 PST" name="Suite" finished-at="2023-12-04T14:47:59 PST" duration-ms="81596">
+  <suite started-at="2023-12-13T09:13:53 PST" name="Suite" finished-at="2023-12-13T09:15:15 PST" duration-ms="82293">
     <groups>
     </groups>
-    <test started-at="2023-12-04T14:46:38 PST" name="Test" finished-at="2023-12-04T14:47:59 PST" duration-ms="81596">
+    <test started-at="2023-12-13T09:13:53 PST" name="Test" finished-at="2023-12-13T09:15:15 PST" duration-ms="82293">
       <class name="com.portfolio.LaunchSiteTest">
-        <test-method signature="launchSite()[pri:0, instance:com.portfolio.LaunchSiteTest@5149d738]" started-at="2023-12-04T14:47:53 PST" name="launchSite" finished-at="2023-12-04T14:47:59 PST" duration-ms="6839" status="PASS">
+        <test-method signature="launchSite()[pri:0, instance:com.portfolio.LaunchSiteTest@4d1c005e]" started-at="2023-12-13T09:15:08 PST" name="launchSite" finished-at="2023-12-13T09:15:15 PST" duration-ms="7145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSite -->
       </class> <!-- com.portfolio.LaunchSiteTest -->
       <class name="com.portfolio.AboutButtonTest">
-        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.portfolio.AboutButtonTest@2034b64c]" started-at="2023-12-04T14:46:38 PST" name="launchSite" finished-at="2023-12-04T14:46:48 PST" duration-ms="10030" status="PASS">
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.portfolio.AboutButtonTest@6440112d]" started-at="2023-12-13T09:13:53 PST" name="launchSite" finished-at="2023-12-13T09:14:03 PST" duration-ms="10232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSite -->
-        <test-method signature="verifyAboutButton()[pri:0, instance:com.portfolio.AboutButtonTest@2034b64c]" started-at="2023-12-04T14:47:03 PST" name="verifyAboutButton" finished-at="2023-12-04T14:47:42 PST" duration-ms="39701" status="PASS">
+        <test-method signature="verifyAboutButton()[pri:0, instance:com.portfolio.AboutButtonTest@6440112d]" started-at="2023-12-13T09:14:18 PST" name="verifyAboutButton" finished-at="2023-12-13T09:14:58 PST" duration-ms="39704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutButton -->
       </class> <!-- com.portfolio.AboutButtonTest -->
       <class name="com.portfolio.VerifyTitlePageTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.portfolio.VerifyTitlePageTest@6bbe85a8]" started-at="2023-12-04T14:46:55 PST" name="launchBrowser" finished-at="2023-12-04T14:47:03 PST" duration-ms="7647" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.portfolio.VerifyTitlePageTest@24569dba]" started-at="2023-12-13T09:14:10 PST" name="launchBrowser" finished-at="2023-12-13T09:14:18 PST" duration-ms="7847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.portfolio.VerifyTitlePageTest@6bbe85a8]" started-at="2023-12-04T14:47:59 PST" name="verifyTitle" finished-at="2023-12-04T14:47:59 PST" duration-ms="9" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:com.portfolio.VerifyTitlePageTest@24569dba]" started-at="2023-12-13T09:15:15 PST" name="verifyTitle" finished-at="2023-12-13T09:15:15 PST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
       </class> <!-- com.portfolio.VerifyTitlePageTest -->
       <class name="com.portfolio.VerifyIntroductionTest">
-        <test-method is-config="true" signature="launchSite2()[pri:0, instance:com.portfolio.VerifyIntroductionTest@53045c6c]" started-at="2023-12-04T14:46:48 PST" name="launchSite2" finished-at="2023-12-04T14:46:55 PST" duration-ms="6966" status="PASS">
+        <test-method is-config="true" signature="launchSite2()[pri:0, instance:com.portfolio.VerifyIntroductionTest@3e08ff24]" started-at="2023-12-13T09:14:03 PST" name="launchSite2" finished-at="2023-12-13T09:14:10 PST" duration-ms="6856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSite2 -->
-        <test-method signature="getIntroText()[pri:0, instance:com.portfolio.VerifyIntroductionTest@53045c6c]" started-at="2023-12-04T14:47:42 PST" name="getIntroText" finished-at="2023-12-04T14:47:53 PST" duration-ms="10240" status="PASS">
+        <test-method signature="getIntroText()[pri:0, instance:com.portfolio.VerifyIntroductionTest@3e08ff24]" started-at="2023-12-13T09:14:58 PST" name="getIntroText" finished-at="2023-12-13T09:15:08 PST" duration-ms="10285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIntroText -->

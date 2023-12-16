@@ -1,47 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-04T22:20:49 PST" name="Suite" finished-at="2023-12-04T22:22:08 PST" duration-ms="78643">
+  <suite started-at="2023-12-15T00:25:07 PST" name="Default suite" finished-at="2023-12-15T00:25:27 PST" duration-ms="19895">
     <groups>
     </groups>
-    <test started-at="2023-12-04T22:20:49 PST" name="Test" finished-at="2023-12-04T22:22:08 PST" duration-ms="78643">
-      <class name="com.portfolio.LaunchSiteTest">
-        <test-method signature="launchSite()[pri:0, instance:com.portfolio.LaunchSiteTest@d9345cd]" started-at="2023-12-04T22:22:01 PST" name="launchSite" finished-at="2023-12-04T22:22:08 PST" duration-ms="6759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchSite -->
-      </class> <!-- com.portfolio.LaunchSiteTest -->
-      <class name="com.portfolio.AboutButtonTest">
-        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.portfolio.AboutButtonTest@4b8ee4de]" started-at="2023-12-04T22:20:49 PST" name="launchSite" finished-at="2023-12-04T22:20:57 PST" duration-ms="8159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchSite -->
-        <test-method signature="verifyAboutButton()[pri:0, instance:com.portfolio.AboutButtonTest@4b8ee4de]" started-at="2023-12-04T22:21:12 PST" name="verifyAboutButton" finished-at="2023-12-04T22:21:51 PST" duration-ms="39047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAboutButton -->
-      </class> <!-- com.portfolio.AboutButtonTest -->
+    <test started-at="2023-12-15T00:25:07 PST" name="Default test" finished-at="2023-12-15T00:25:27 PST" duration-ms="19895">
       <class name="com.portfolio.VerifyIntroductionTest">
-        <test-method is-config="true" signature="launchSite2()[pri:0, instance:com.portfolio.VerifyIntroductionTest@428640fa]" started-at="2023-12-04T22:20:57 PST" name="launchSite2" finished-at="2023-12-04T22:21:04 PST" duration-ms="6591" status="PASS">
+        <test-method is-config="true" signature="launchSite2()[pri:0, instance:com.portfolio.VerifyIntroductionTest@36916eb0]" started-at="2023-12-15T00:25:07 PST" name="launchSite2" finished-at="2023-12-15T00:25:16 PST" duration-ms="8770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSite2 -->
-        <test-method signature="getIntroText()[pri:0, instance:com.portfolio.VerifyIntroductionTest@428640fa]" started-at="2023-12-04T22:21:51 PST" name="getIntroText" finished-at="2023-12-04T22:22:01 PST" duration-ms="10233" status="PASS">
+        <test-method signature="getIntroText()[pri:0, instance:com.portfolio.VerifyIntroductionTest@36916eb0]" started-at="2023-12-15T00:25:16 PST" name="getIntroText" finished-at="2023-12-15T00:25:27 PST" duration-ms="11032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIntroText -->
       </class> <!-- com.portfolio.VerifyIntroductionTest -->
-      <class name="com.portfolio.VerifyTitlePageTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.portfolio.VerifyTitlePageTest@2d710f1a]" started-at="2023-12-04T22:21:04 PST" name="launchBrowser" finished-at="2023-12-04T22:21:12 PST" duration-ms="7737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.portfolio.VerifyTitlePageTest@2d710f1a]" started-at="2023-12-04T22:22:08 PST" name="verifyTitle" finished-at="2023-12-04T22:22:08 PST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-      </class> <!-- com.portfolio.VerifyTitlePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

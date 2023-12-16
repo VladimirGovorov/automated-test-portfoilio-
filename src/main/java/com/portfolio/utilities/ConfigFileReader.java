@@ -60,7 +60,7 @@ package com.portfolio.utilities;
 		}
 		
 		public String getApplicationUrl() {
-			String url = properties.getProperty("AppHRM");
+			String url = properties.getProperty("AppUrl");
 			if(url != null) return url;
 			else throw new RuntimeException("url not specified in the Configuration.properties file.");
 		}
