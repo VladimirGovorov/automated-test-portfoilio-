@@ -27,3 +27,6 @@ tutorial:https://www.youtube.com/watch?v=u_m_DPdW6hY
   
   ```mvn test -PAllTests``` to trigger all tests
 
+
+
+  4. If you wish to see all tests in eclipse, navigate to src/test/java folder and click on the com.portfolio package
