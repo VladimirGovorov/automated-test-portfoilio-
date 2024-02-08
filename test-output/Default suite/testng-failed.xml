@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.portfolio.AboutButtonTest">
+      <class name="com.portfolio.VerifyIntroductionTest">
         <methods>
-          <include name="launchSite"/>
-          <include name="verifyAboutButton"/>
+          <include name="getIntroText"/>
+          <include name="launchSite2"/>
         </methods>
-      </class> <!-- com.portfolio.AboutButtonTest -->
+      </class> <!-- com.portfolio.VerifyIntroductionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
