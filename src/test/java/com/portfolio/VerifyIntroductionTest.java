@@ -2,6 +2,7 @@ package com.portfolio;
 
 import org.testng.annotations.Test;
 import java.io.IOException;
+//import org.junit.Test;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -26,7 +27,7 @@ public class VerifyIntroductionTest extends DriverFactory {
 	public void getIntroText()
 	{
 		landingPage = new LandingPage(getDriver());
-		landingPage.verifyIntroText("Hi there! 👋🏼 I'm Vlad"); 
+		landingPage.verifyIntroText("Hi there! 👋I'm Vlad"); 
 		
 	}
 	
