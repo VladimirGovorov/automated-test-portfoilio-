@@ -26,7 +26,7 @@ public class ImageVerificationTests extends DriverFactory {
 	
 	
 	@Test
-	public void verifyFirstImage()
+	public void verifyFirstImage() 
 	{
 		
 		photos = new LandingPagePhotos(getDriver());
