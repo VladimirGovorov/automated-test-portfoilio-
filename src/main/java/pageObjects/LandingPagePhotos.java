@@ -31,7 +31,7 @@ public class LandingPagePhotos extends PortfolioActions {
 	
 	public Boolean verifyImage() {
 		
-	Boolean condition = driver.findElement(By.xpath("//img[@class='Home_heroImage__TUNRx']"))
+	Boolean condition = driver.findElement(firstPicture)
 	.isDisplayed();
 	
 	
