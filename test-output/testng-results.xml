@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-13T02:58:18 PST" name="Default suite" finished-at="2024-02-13T02:58:27 PST" duration-ms="9244">
+  <suite started-at="2024-02-26T12:57:57 PST" name="Default suite" finished-at="2024-02-26T12:58:28 PST" duration-ms="30950">
     <groups>
     </groups>
-    <test started-at="2024-02-13T02:58:18 PST" name="Default test" finished-at="2024-02-13T02:58:27 PST" duration-ms="9244">
+    <test started-at="2024-02-26T12:57:57 PST" name="Default test" finished-at="2024-02-26T12:58:28 PST" duration-ms="30950">
       <class name="com.portfolio.ImageVerificationTests">
-        <test-method is-config="true" signature="launchPage()[pri:0, instance:com.portfolio.ImageVerificationTests@1e1a0406]" started-at="2024-02-13T02:58:18 PST" name="launchPage" finished-at="2024-02-13T02:58:27 PST" duration-ms="9132" status="PASS">
+        <test-method is-config="true" signature="launchPage()[pri:0, instance:com.portfolio.ImageVerificationTests@12aba8be]" started-at="2024-02-26T12:57:57 PST" name="launchPage" finished-at="2024-02-26T12:58:09 PST" duration-ms="11915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchPage -->
-        <test-method signature="verifyFirstImage()[pri:0, instance:com.portfolio.ImageVerificationTests@1e1a0406]" started-at="2024-02-13T02:58:27 PST" name="verifyFirstImage" finished-at="2024-02-13T02:58:27 PST" duration-ms="76" status="PASS">
+        <test-method signature="checkForLogo()[pri:0, instance:com.portfolio.ImageVerificationTests@12aba8be]" started-at="2024-02-26T12:58:09 PST" name="checkForLogo" finished-at="2024-02-26T12:58:12 PST" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForLogo -->
+        <test-method signature="checkPhoneImage()[pri:0, instance:com.portfolio.ImageVerificationTests@12aba8be]" started-at="2024-02-26T12:58:12 PST" name="checkPhoneImage" finished-at="2024-02-26T12:58:25 PST" duration-ms="12831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPhoneImage -->
+        <test-method signature="verifyFirstImage()[pri:0, instance:com.portfolio.ImageVerificationTests@12aba8be]" started-at="2024-02-26T12:58:25 PST" name="verifyFirstImage" finished-at="2024-02-26T12:58:28 PST" duration-ms="3035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFirstImage -->

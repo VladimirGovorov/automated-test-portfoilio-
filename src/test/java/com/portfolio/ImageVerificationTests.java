@@ -7,11 +7,11 @@ import org.testng.annotations.Test;
 
 import com.portfolio.driverFactory.DriverFactory;
 
-import pageObjects.LandingPagePhotos;
+import pageObjects.LandingPageImages;
 
 public class ImageVerificationTests extends DriverFactory {
 	
-	LandingPagePhotos photos;
+	LandingPageImages photos;
 	
 	
 	@BeforeTest
@@ -26,15 +26,36 @@ public class ImageVerificationTests extends DriverFactory {
 	
 	
 	@Test
-	public void verifyFirstImage() 
+	public void verifyFirstImage() throws InterruptedException 
 	{
 		
-		photos = new LandingPagePhotos(getDriver());
+		photos = new LandingPageImages(getDriver());
 			
 		photos.verifyImage();
+		Thread.sleep(3000);
 		
 		
 	}
+	@Test
+	public void checkForLogo() throws InterruptedException {
+		
+		photos = new LandingPageImages(getDriver());
+		
+		photos.verifyLogo();
+		
+		
+		}
+	@Test
+	public void checkPhoneImage( ) throws InterruptedException {
+		
+		photos = new LandingPageImages(getDriver());
+		
+		photos.verifyPhoneImage();
+		
+		
+	}
+	
+	
 	
 	
 	
